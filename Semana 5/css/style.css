@@ -1,0 +1,127 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+#wrapper {
+			width: 100%; 
+			margin:0 auto;
+			max-width: 1024px;
+		}
+#content {
+			float: right;
+			width:100%;
+			margin-left:1%;
+		}
+#sidebar {
+			float: left;
+			width:30%;
+			margin-right:0;
+}
+@media screen and (max-width:600px) {
+    #content { float:right; 
+    			width:98%; 
+    			margin:0 1%; 
+    		}
+    #sidebar { float:left; 
+    			width:98%; 
+    			margin:0 1%; 
+    		}
+  }
+body{
+	    	background-color: white;
+	    	color: black;
+
+	    }
+	    header {
+			position: relative;
+			display: block;
+
+	    }
+	    h1 {
+	    	font-size: 2.5em;
+	    	color: black;
+	    	text-align: center;
+	    	letter-spacing: 21px;
+	    	background-color: #FF9C9C;
+	    	width: 90%;
+	    }
+
+	    a:hover {
+			color: black;
+			background: pink;
+
+	}
+		nav:hover {
+			color: black;
+			background:#FF9C9C ;
+		
+	}
+	    nav {
+	    	float: none;
+	    	text-align: center;
+	    	display: block;
+	    	width: 90%;
+	    	float: right;
+	    	margin: 50px;
+	    	text-decoration: none;
+	    	font-size: 1em;
+	    	background-color: #FF9C9C;
+	    	letter-spacing: 5px;
+	    }
+	    a {
+	    	text-decoration: none;
+	    	color: black;
+	    	float: none;
+	    	color: black;
+	    }
+	    aside {
+	    	display: inline-block;
+	    	float: none;
+	    	text-align: left;
+	    	float: left;
+	    	font-size: 1em;
+	    	margin:10px;
+	    	margin-left: 80px;
+	    	text-align: justify;
+	    	border: 2px solid black;
+	    	float: left;
+	    	width:14%;
+	    	padding: 5px;
+	    }
+	    section {
+	    	float: none;
+	    	display: inline-block;
+	    	float: right;
+	    	padding: 5px;
+	    }
+	    h2{
+	    	font-size: 1.2em;
+	    	color: black;
+	    	text-align: center;
+	    	background-color: ;
+
+
+	    }
+	    article {
+	    	border: none;
+	    	margin: 9px;
+	    	float: none;
+			display: inline-block; 			
+			width: 600px;
+			margin-top: 20px;
+			text-align: center;
+			width: 85%;
+			background-color: #FFF1F8;
+			color: black;
+			float: right;
+
+	    }
+	    footer{
+	    	float:none;
+	    	display: block;
+	    	width: 100%;
+	    	background-color: #FF9C9C;
+	    	margin-top: 40px;
+			text-align: center;
+			font-size: .8px;
+			height:20px;
+			bottom:10px;
+			float: left;
+	    }
