@@ -6,8 +6,30 @@ html,body {
 	height:100%;
 }
 
-h1,h2,h3,h4,h5,h6,p{
+header {
+	text-align:center;
+	color: gray; 
+	font-family: sans serif;
+}
+
+h1{
 	margin-bottom:20px;
+	color: white;
+	padding: 10px;
+	position:fixed;
+	text-align: left;
+	width: 20%;
+
+}
+
+p{
+	margin-bottom:20px;
+	text-align: center;
+	margin-top:50px;
+	color:gray;
+	font-family: sans-serif;
+	padding-left:60px;
+	padding-right:60px;
 }
 
 nav {
@@ -23,9 +45,13 @@ nav {
 nav a {
 	text-decoration: none;
 	color: #fff;
-	margin-left: 30px;
 	line-height: 50px;
 	margin-right:20px;
+	width: 90%;
+}
+
+nav a:hover {
+	background-color: pink;
 }
 
 .sect{
@@ -35,7 +61,7 @@ nav a {
 }
 
 .subSection {
-	height: 50%;
+	height: 10%;
 	background-color:white;
 
 }
@@ -50,5 +76,12 @@ nav a {
 
 .sectThree {
 	background-image:url("../image/80.jpg");
+}
+
+footer {
+	color: gray;
+	text-align:center;
+	font-family: sans-serif;
+	height: 30px;
 }
 
