@@ -1,0 +1,54 @@
+* {
+	margin:0;
+}
+
+html,body {
+	height:100%;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+	margin-bottom:20px;
+}
+
+nav {
+	height: 50px;
+	width: 100%;
+	background-color: rgba(0,0,0,.5);
+	position: fixed;
+	z-index: 99;
+	text-align:right;
+
+}
+ 
+nav a {
+	text-decoration: none;
+	color: #fff;
+	margin-left: 30px;
+	line-height: 50px;
+	margin-right:20px;
+}
+
+.sect{
+	height: 100%;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.subSection {
+	height: 50%;
+	background-color:white;
+
+}
+
+.sectOne {
+	background-image:url("../image/10.jpg");
+}
+
+.sectTwo {
+	background-image:url("../image/70.jpg");
+}
+
+.sectThree {
+	background-image:url("../image/80.jpg");
+}
+
