@@ -1,0 +1,49 @@
+body {
+	border: 1px red;
+}
+
+#wraper {
+	border: 1px pink;
+	width:1024px;
+	margin: 0 auto;
+}
+
+.container {
+	border: 1px green;
+	width: 990px;
+	margin: 0 auto;
+}
+
+.container div{
+	border: 1px blue;
+	background-color:lightgray;
+	padding:10px;
+	width: 285px;
+	float:left;
+	margin:10px;
+}
+
+.container div img {
+	border: 1px orange;
+	width: 100%;
+	margin-bottom:20px;
+	-webkit-border-radius:50px 50px 50px 50px;
+	border-radius: 50px 50px 50px 50px;
+}
+
+p {
+	border: 1px gray;
+	text-align:center;	
+}
+
+h1 {
+	border: 1px brown;
+	text-align: center;
+	font-size: 24px;
+}
+
+.alignment {
+	width: auto;
+
+
+}
