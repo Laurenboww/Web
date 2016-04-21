@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display);
 * {
 	margin:0;
 }
@@ -9,8 +10,37 @@ html,body {
 header {
 	text-align:center;
 	color: gray; 
-	font-family: sans serif;
+	padding-top: 50px;
+
 }
+
+.arrow {
+    width: 0;
+    left: 50%;
+    bottom: 0;
+    position: fixed;
+    margin-left: -40px;
+    border-top: 20px solid black;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    animation: indicate 1.5s linear infinite;
+}
+
+.arrow::before {
+    width: 80px;
+    display: block;
+    position: absolute;
+    text-align: center;
+    font: .75em 'sans-serif';
+    content: "SCROLL DOWN";
+    bottom: 25px; left: -40px;
+}
+
+@keyframes indicate {
+      0% { bottom: 10% }
+    100% { bottom: -10%; opacity: 0 }
+}
+
 
 h1{
 	margin-bottom:20px;
@@ -22,12 +52,16 @@ h1{
 
 }
 
-p{
+
+ul { 
+	color:gray;
+	padding-top:50px; } 
+
+p{ 
 	margin-bottom:20px;
 	text-align: center;
 	margin-top:50px;
 	color:gray;
-	font-family: sans-serif;
 	padding-left:60px;
 	padding-right:60px;
 }
@@ -81,7 +115,8 @@ nav a:hover {
 footer {
 	color: gray;
 	text-align:center;
-	font-family: sans-serif;
 	height: 30px;
+	padding-bottom: 20px;
 }
+
 
