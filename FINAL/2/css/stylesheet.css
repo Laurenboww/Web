@@ -1,0 +1,313 @@
+@import url(https://fonts.googleapis.com/css?family=Oranienbaum);
+html { 
+	background-color: white;
+	font-family: 'Oranienbaum', serif;
+}
+.mySlides {display:none}
+.w3-left, .w3-right, .w3-badge {curso r:pointer}
+.w3-badge {height:13px;width:13px;padding:0}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: #8d5a63;
+    overflow-x: hidden;
+    transition: 0.5s;
+    float:none;
+    padding-top: 3.750em;
+}
+
+.sidenav a {
+    padding: 0.500em 0.500em 0.500em 2.000em;
+    text-decoration: none;
+    font-size:1.563em;
+    color: #612e37;
+    display: block;
+    transition: 0.3s
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    color: #FFFFFF  ;
+}
+
+.closebtn {
+    position: absolute;
+    top: 0;
+    right: 1.563em;
+    font-size: 2.250em !important;
+    margin-left: 3.125em;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 0.938em;}
+  .sidenav a {font-size: 1.125em;}
+}
+
+
+
+header {
+	width: 100%;
+	background: white;
+	height: 150px;
+
+}
+
+h2 {
+	color:#612e37;
+}
+
+
+#container {
+	min-width:100px;
+	max-width: 990px;
+	margin: 0 auto;
+	padding: 3.125em;
+}
+
+h1 img {
+	float: left;
+	width: 20%;
+}
+
+li {
+	float: right;
+	padding-left: 0.625em;
+	padding-right: 0.625em;
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+#menu {
+	float:right;
+	top:0;
+	right:0;
+	position:absolute;
+	margin-right:10.625em;
+	margin-top:6.875em;
+	color: #612e37;
+	}
+
+header ul img { 
+	opacity:1;
+	filter:alpha(opacity=100);
+	background: url (1.png);
+}
+
+header ul img:hover {
+	cursor: pointer;
+	opacity: 0.3;
+	filter:alpha(opacity);
+}
+
+
+#instagram img {
+	opacity:1;
+	filter:alpha(opacity=100);
+	background: url (1.png);
+}
+
+#instagram img:hover {
+	cursor: pointer;
+	opacity: 0.3;
+	filter:alpha(opacity);
+}
+
+button {
+	cursor: pointer;
+}
+
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #8d5a63;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 0.875em;
+  padding: 0.625em;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 0.313em;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -1.250em;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 1.563em;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+#menu {
+	opacity:1;
+	filter:alpha(opacity=100);
+	background: url (1.png);
+}
+
+#menu:hover {
+	cursor: pointer;
+	opacity: 0.3;
+	filter:alpha(opacity);
+}
+
+
+#mainone {
+	text-align: center;
+	font-size:1.000em;
+	height: 18.750em;
+	width: 100%;
+	background: url(../images/11.jpg) no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  
+}
+
+#products div {
+	padding:0.063em;
+	width: 211px;
+	float:left;
+	margin:0.938em;
+	text-align: center;
+	border: 0.125em solid brown;
+
+}
+
+
+#instagram div{
+	display: inline-block;
+	margin: 0.625em;
+
+	}
+button {
+	margin-bottom: 1.250em;
+}
+
+ul {
+	margin-left:50.625em;
+	margin-bottom: 1.875em;
+
+}
+
+ul img{
+	padding: 0.188em;
+}
+
+ul img:hover {
+	background-color:pink solid;
+	background-image: url(../images/white.png);
+	cursor: pointer;
+}
+
+
+#info div {
+	padding:0.063em;
+	width: 248px;
+	margin:2.500em;
+	float: left;
+	padding-bottom: 3.750em;
+
+}
+
+#info div.col-1{
+	width: 450px;
+}
+
+hr {
+	width: auto;
+	position: relative;
+}
+
+.container div {
+	width: 300px;
+	float:none;
+}
+
+footer .button {
+	width: 240px;
+	height:2.188em;
+	font-size:0.813em;
+	margin-top: 1.250em;
+
+}
+
+div.col-3 p {
+	font-size: 0.938em;
+}
+
+#mySidenav button {
+	text-align:left;
+	width:20px;
+	margin-left: 2.250em;
+	margin-top: 1.250em;
+}
+
+#mySidenav img {
+	padding: 0.313em;
+	position:relative;
+}
+
+
+#mySidenav hr {
+	width: 80%;
+}
+
+#faq div {
+	display:inline;
+}
+
+
+#products p {
+	padding-top:3.125em;
+	margin-top:3.125em;
+
+}
+
+#product h3 {
+	margin-bottom:0.250em;
+}
+
+
+
+#faq button {
+	width:90px;
+	height:1.875em;
+	font-size:0.625em;
+
+}
+
+#faq .faq {
+	width: 500px;
+	float:right;
+	margin-left:4px;
+	display: inline;
+}
+
+
